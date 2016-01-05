@@ -102,9 +102,9 @@ body{
 }
 
 @keyframes bounce {
-    0%  {line-height: 70px;}
-    50%  {line-height: 95px;}
-    100% {line-height: 70px;}
+    0%  {line-height: 75px;}
+    50%  {line-height: 105px;}
+    100% {line-height: 75px;}
 }
 
 .arrow a{
