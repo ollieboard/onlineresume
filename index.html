@@ -5,7 +5,8 @@
     <title>Oliver Feindt - Online Resume</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"></link>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href= "css/font-awesome.min.css">
 	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"></link>
   </head>
 
@@ -14,7 +15,7 @@
 	  <div class = "div-home jumbotron">
 		<div class = "container">
 			<h1>Oliver Feindt</h1>
-			<p class = "resume">online resume</p>
+			<p>online resume</p>
 		</div>
 	  </div>
 	</div>
@@ -40,13 +41,14 @@
 
 				<div class="navbar-collapse collapse" aria-expanded = "false" id="navbar-main">
 					<ul class="nav navbar-nav">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#qualifications">Qualifications</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
+						<li id = "homelink"><a href="#home">Home</a></li>
+						<li id = "aboutlink"><a href="#about">About</a></li>
+						<li id = "quallink"><a href="#qualifications">Experience</a></li>
+						<li id = "skilllink"><a href="#skills">Skills</a></li>
+						<li id = "portlink"><a href="#portfolio">Portfolio</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#contact">Contact</a></li>
+						<li id = "contactlink"><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -54,86 +56,294 @@
 	</div>
 	<div class = "div-about" id ="about">
 		<div class = "container div-main-width">
-			<h2>About</h2>
 			<div class ="row">
-				<div class ="col-md-6">
-				  <a href="https://github.com/ollieboard/">
-					<i class="fa fa-github fa-fw"></i>github
-				  </a>
+				<div class ="col-md-4">
+				  <img class ="img-responsive img-circle" src = "img/Foto_OliverFeindt.jpeg">
 				</div>
-				<div class ="col-md-6">
-				  <a href="http://tumblr.com/oliverfeindt/">
-					<i class="fa fa-tumblr fa-fw"></i>tumblr
-				  </a>
+				<div class ="col-md-4">
+				  	<p class = "text-name text-bold">Oliver Feindt<p>
+					<p class = "text-green text-bold text-medium">Engineer & Developer</p>
 				</div>
-				<div class ="col-md-6">
-				  <a href="http://instagram.com/oliverfeindt/">
-					<i class="fa fa-instagram fa-fw"></i>instagram
-				  </a>
+				<div class ="col-md-4">
+					<div class = "col-xs-3">
+						<p class="text-green"><i class ="fa fa-map-marker"></i></p>
+					</div>
+					<div class = "col-xs-9">
+						<p>Hamburg, Germany</p>
+						<p>Struenseestr. 59</p>
+					</div>
+					<div class = "col-xs-3">
+						<p  class="text-green"><i class ="fa fa-birthday-cake"></i></p>
+					</div>
+					<div class = "col-xs-9">
+						<p>27.03.1989</p>
+					</div>
+					<div class = "col-xs-3">
+						<p class="text-green"><i class ="fa fa-phone"></i></p>
+					</div>
+					<div class = "col-xs-9">
+						<p>+49-176-80748548</p>
+					</div>
+					<div class = "col-xs-3">
+						<p class="text-green"><i class ="fa fa-send-o"></i></p>
+					</div>
+					<div class = "col-xs-9">
+						<p><a href="mailto:ofeindt@hotmail.com">ofeindt@hotmail.com</a></p>
+					</div>
 				</div>
-				<div class ="col-md-6">
-				  <a href="https://de.linkedin.com/in/oliver-feindt-66370697/">
-					<i class="fa fa-linkedin fa-fw"></i>linkedin
-				  </a>
-				</div>
-				<div class ="col-md-6">
-				  <a href="https://www.xing.com/profile/Oliver_Feindt2/">
-					<i class="fa fa-xing fa-fw"></i>xing
-				  </a>
-				</div>
-				<div class ="col-md-6">
-				  <a href="http://www.freecodecamp.com/ollieboard/">
-					<i class="fa fa-fire fa-fw"></i>freecodecamp
-				  </a>
-				</div>
+			</div>
+			<div class = "row">
+				Lorem ipsum dolor sit amet, nec verear voluptua constituto te, eu vis vitae fastidii accusamus, nostrud quaeque deserunt eam te. Vim volutpat gubergren dissentias eu. Adhuc luptatum suavitate vix eu, nam quod nonumy sadipscing ex, vidit tritani persius mea ei. Et omnes deseruisse eam. Primis percipit in qui, id eum stet esse eleifend, ex nec hinc essent fabellas.
 			</div>
 		</div>
 	</div>
 	
 	<div class = "div-qualifications" id ="qualifications">
-		<div class = "container">
-			<h2>Qualifications</h2>
+		<div class = "container div-main-width">
+			<h2>Experience</h2>
+		</div>
+	</div>
+
+	<div class = "div-skills" id ="skills">
+		<div class = "container div-main-width">
+			<h2>Technical Skills</h2>
+			<hr></hr>
+			<div class = "row">
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 80per">
+					  <div class="circle-text">80%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Matlab</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 40per">
+					  <div class="circle-text">40%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Java</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 20per">
+					  <div class="circle-text">20%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Python</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 60per">
+					  <div class="circle-text">80%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Systems</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 80per">
+					  <div class="circle-text">80%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">HTML</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 80per">
+					  <div class="circle-text">80%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">CSS</p>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 60per">
+					  <div class="circle-text">60%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Javascript</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 60per">
+					  <div class="circle-text">60%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Databases</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 60per">
+					  <div class="circle-text">60%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Photoshop</p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 80per">
+					  <div class="circle-text">80%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills"></p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 60per">
+					  <div class="circle-text">60%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills"></p>
+				</div>
+				<div class = "col-xs-6 col-md-2">
+					<div class="circle-wrap 100per">
+					  <div class="circle-text">100%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Office</p>
+				</div>
+			</div>
+			<hr></hr>
+			<div class="row">
+			</div>
+			<div class="row">
+			</div>
+			<h2>Languages</h2>
+			<hr></hr>
+			<div class="row">
+				<div class = "col-xs-6 col-md-3">
+					<div class="circle-wrap 100per">
+					  <div class="circle-text">100%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">German</p>
+				</div>
+				<div class = "col-xs-6 col-md-3">
+					<div class="circle-wrap 100per">
+					  <div class="circle-text">100%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">English</p>
+				</div>
+				<div class = "col-xs-6 col-md-3">
+					<div class="circle-wrap 60per">
+					  <div class="circle-text">60%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">French</p>
+				</div>
+				<div class = "col-xs-6 col-md-3">
+					<div class="circle-wrap 20per">
+					  <div class="circle-text">20%</div>
+					  <div class="spinner circle"></div>
+					  <div class="filler circle"></div>
+					  <div class="mask"></div>
+					</div>
+					<p class = "text-skills">Spanish</p>
+				</div>
+			</div>
+			<hr></hr>
 		</div>
 	</div>
 	
 	<div class = "div-portfolio" id ="portfolio">
-		<div class = "container">
+		<div class = "container div-main-width">
 			<h2>Portfolio</h2>
+
+			<div id="carouselPortfolio" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselPortfolio" data-slide-to="1"></li>
+				    <li data-target="#carouselPortfolio" data-slide-to="2"></li>
+				    <li data-target="#carouselPortfolio" data-slide-to="3"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      	<a href="http://oliverfeindt.tumblr.com/" target="_blank">
+							<img src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project1">
+						</a>
+					    </div>
+
+					    <div class="item">
+					    	<a href="http://oliverfeindt.tumblr.com/" target="_blank">
+							<img src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project2">
+						</a>
+					    </div>
+
+					    <div class="item">
+					      <a href="http://oliverfeindt.tumblr.com/" target="_blank">
+							<img src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project3">
+						</a>
+					    </div>
+
+					    <div class="item">
+					      <a href="http://oliverfeindt.tumblr.com/" target="_blank">
+							<img src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project4">
+						</a>
+					    </div>
+				  </div>
+			</div>
 		</div>
 	</div>
 
-	<div class = "container-fluid div-contact" id ="contact">
+	<div class = "div-contact" id ="contact">
 		<div class = "container div-main-width">
 			<h2>Contact</h2>
 			<hr></hr>
-			<div class ="row row-contact">
+			<div class ="row">
 				<div class ="col-md-6">
-				  <a href="https://github.com/ollieboard/">
+				  <a href="https://github.com/ollieboard/" target="_blank">
 					<i class="fa fa-github fa-fw"></i>github
 				  </a>
 				</div>
 				<div class ="col-md-6">
-				  <a href="http://tumblr.com/oliverfeindt/">
+				  <a href="http://oliverfeindt.tumblr.com/" target="_blank">
 					<i class="fa fa-tumblr fa-fw"></i>tumblr
 				  </a>
 				</div>
 				<div class ="col-md-6">
-				  <a href="http://instagram.com/oliverfeindt/">
+				  <a href="http://instagram.com/oliverfeindt/" target="_blank">
 					<i class="fa fa-instagram fa-fw"></i>instagram
 				  </a>
 				</div>
 				<div class ="col-md-6">
-				  <a href="https://de.linkedin.com/in/oliver-feindt-66370697/">
+				  <a href="https://de.linkedin.com/in/oliver-feindt-66370697/" target="_blank">
 					<i class="fa fa-linkedin fa-fw"></i>linkedin
 				  </a>
 				</div>
 				<div class ="col-md-6">
-				  <a href="https://www.xing.com/profile/Oliver_Feindt2/">
+				  <a href="https://www.xing.com/profile/Oliver_Feindt2/" target="_blank">
 					<i class="fa fa-xing fa-fw"></i>xing
 				  </a>
 				</div>
 				<div class ="col-md-6">
-				  <a href="http://www.freecodecamp.com/ollieboard/">
+				  <a href="http://www.freecodecamp.com/ollieboard/" target="_blank">
 					<i class="fa fa-fire fa-fw"></i>freecodecamp
 				  </a>
 				</div>
