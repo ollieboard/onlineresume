@@ -9,7 +9,7 @@
   bottom: 15%;
   position: absolute;
   content: " ";
-  width: 5px;
+  width: 4px;
   background-color: #777;
   left: 50%;
   margin-left: -2.5px;
@@ -41,6 +41,8 @@
 }
 
 .timeline > li > .timeline-panel {
+  
+  word-wrap:break-word;
   background-color: #fff;
   width: 46%;
   float: left;

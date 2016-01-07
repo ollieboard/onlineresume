@@ -41,6 +41,7 @@
 }
 
 .timeline > li > .timeline-panel {
+  word-wrap:break-word;
   background-color: #fff;
   width: 46%;
   float: left;
