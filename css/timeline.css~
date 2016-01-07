@@ -9,7 +9,7 @@
   bottom: 15%;
   position: absolute;
   content: " ";
-  width: 4px;
+  width: 5px;
   background-color: #777;
   left: 50%;
   margin-left: -2.5px;

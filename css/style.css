@@ -34,8 +34,8 @@ body{
 	display: block;
 	left: 50%;
 	top: 50%;
-	margin-left: -1024px;
 	margin-top: -678px;
+	margin-left: -1024px;
 }
 
 .jumbotron .container{
@@ -240,7 +240,7 @@ body{
 
 .div-main-width{
 	font-weight: 300;
-	width: 70%;
+	width: 80%;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }

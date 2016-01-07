@@ -21,7 +21,7 @@ body{
 
 .div-home{
 	position: fixed;
-	max-height: 100%;
+	height: 100%;
 	/*background-image: url(../img/pluto-new-horizons-false-color-1920.jpg);*/
 	/*background: url(https://40.media.tumblr.com/b63514d9d3de1e95050886954de75061/tumblr_o0e2582P6D1v42u8ko1_1280.png);*/
 	background: transparent;
@@ -34,8 +34,8 @@ body{
 	display: block;
 	left: 50%;
 	top: 50%;
-	margin-left: -1024px;
 	margin-top: -678px;
+	margin-left: -1024px;
 }
 
 .jumbotron .container{
@@ -240,7 +240,7 @@ body{
 
 .div-main-width{
 	font-weight: 300;
-	width: 70%;
+	width: 80%;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
@@ -325,7 +325,7 @@ body{
 }
 
 .mask {
-	width: 50%;
+	width: 60%;
 	height: 100%;
 	position: absolute;
 	top: 0;
