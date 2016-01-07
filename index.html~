@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
   <head>
     <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Oliver Feindt - Online Resume</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"></link>
 	<link rel="stylesheet" href="css/style.css">
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
 	<link rel="stylesheet" href= "css/font-awesome.min.css">
 	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"></link>
+	<!--<script src="js/background-check.min.js"></script>-->
   </head>
 
   <body>
 	<div class = "div-home-buffer" id="home">
 	  <div class = "div-home jumbotron">
 		<div class = "container">
-			<h1>Oliver Feindt</h1>
-			<p>online resume</p>
+			<h1 class = "text-center target">Oliver Feindt</h1>
+			<br></br>
+			<h2 class = "text-center target">online resume</h2>
 		</div>
+	  </div>
+	  <div class ="bg-image">
+		<!--<img src="https://40.media.tumblr.com/b63514d9d3de1e95050886954de75061/tumblr_o0e2582P6D1v42u8ko1_1280.png">-->
+		<img src="img/pluto-new-horizons-false-color-1920.jpg">
+	  </div>
+	  <div class = "arrow-box">
+			<div class ="arrow target"><i class="fa fa-chevron-down"></i></div>
 	  </div>
 	</div>
 	<div class ="div-nav" id="navbar">
-	
-		<div class = "arrow-box">
-			<div class ="arrow"><a href="#about"><i class="fa fa-chevron-down "></i></a></div>
-		</div>
 		
 		<div class ="navbar navbar-default navbar-pos" role="navigation">
 			<div class="container-fluid">
@@ -61,34 +68,34 @@
 				  <img class ="img-responsive img-circle" src = "img/Foto_OliverFeindt.jpeg">
 				</div>
 				<div class ="col-md-4">
-				  	<p class = "text-name text-bold">Oliver Feindt<p>
-					<p class = "text-green text-bold text-medium">Engineer & Developer</p>
+				  	<h1 class = "text-name">Oliver Feindt<h1>
+					<h3 class = "text-green text-bold">Engineer & Developer</h3>
 				</div>
 				<div class ="col-md-4">
 					<div class = "col-xs-3">
-						<p class="text-green"><i class ="fa fa-map-marker"></i></p>
+						<h4 class="text-green"><i class ="fa fa-map-marker"></i></h4>
 					</div>
 					<div class = "col-xs-9">
-						<p>Hamburg, Germany</p>
-						<p>Struenseestr. 59</p>
+						<h4>Hamburg, Germany</h4>
+						<h4>Struenseestr. 59</h4>
 					</div>
 					<div class = "col-xs-3">
-						<p  class="text-green"><i class ="fa fa-birthday-cake"></i></p>
+						<h4  class="text-green"><i class ="fa fa-birthday-cake"></i></h4>
 					</div>
 					<div class = "col-xs-9">
-						<p>27.03.1989</p>
+						<h4>27.03.1989</h4>
 					</div>
 					<div class = "col-xs-3">
-						<p class="text-green"><i class ="fa fa-phone"></i></p>
+						<h4 class="text-green"><i class ="fa fa-phone"></i></h4>
 					</div>
 					<div class = "col-xs-9">
-						<p>+49-176-80748548</p>
+						<h4>+49-176-80748548</h4>
 					</div>
 					<div class = "col-xs-3">
-						<p class="text-green"><i class ="fa fa-send-o"></i></p>
+						<h4 class="text-green"><i class ="fa fa-send-o"></i></h4>
 					</div>
 					<div class = "col-xs-9">
-						<p><a href="mailto:ofeindt@hotmail.com">ofeindt@hotmail.com</a></p>
+						<h4><a href="mailto:ofeindt@hotmail.com">ofeindt@hotmail.com</a></h4>
 					</div>
 				</div>
 			</div>
@@ -100,16 +107,18 @@
 	
 	<div class = "div-qualifications" id ="qualifications">
 		<div class = "container div-main-width">
-			<h2>Experience</h2>
+			<h1 class = "text-center">Experience</h1>
 		</div>
 	</div>
 
 	<div class = "div-skills" id ="skills">
 		<div class = "container div-main-width">
-			<h2>Technical Skills</h2>
-			<hr></hr>
+			<h1 class = "text-center">Technical Skills</h1>
 			<div class = "row">
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-12">
+					<hr></hr>
+				</div>
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 80per">
 					  <div class="circle-text">80%</div>
 					  <div class="spinner circle"></div>
@@ -118,7 +127,7 @@
 					</div>
 					<p class = "text-skills">Matlab</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 40per">
 					  <div class="circle-text">40%</div>
 					  <div class="spinner circle"></div>
@@ -127,7 +136,7 @@
 					</div>
 					<p class = "text-skills">Java</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 20per">
 					  <div class="circle-text">20%</div>
 					  <div class="spinner circle"></div>
@@ -136,16 +145,16 @@
 					</div>
 					<p class = "text-skills">Python</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 60per">
 					  <div class="circle-text">80%</div>
 					  <div class="spinner circle"></div>
 					  <div class="filler circle"></div>
 					  <div class="mask"></div>
 					</div>
-					<p class = "text-skills">Systems</p>
+					<p class = "text-skills">Systems Engineering</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 80per">
 					  <div class="circle-text">80%</div>
 					  <div class="spinner circle"></div>
@@ -154,7 +163,7 @@
 					</div>
 					<p class = "text-skills">HTML</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 80per">
 					  <div class="circle-text">80%</div>
 					  <div class="spinner circle"></div>
@@ -163,9 +172,7 @@
 					</div>
 					<p class = "text-skills">CSS</p>
 				</div>
-			</div>
-			<div class = "row">
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 60per">
 					  <div class="circle-text">60%</div>
 					  <div class="spinner circle"></div>
@@ -174,7 +181,7 @@
 					</div>
 					<p class = "text-skills">Javascript</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 60per">
 					  <div class="circle-text">60%</div>
 					  <div class="spinner circle"></div>
@@ -183,7 +190,7 @@
 					</div>
 					<p class = "text-skills">Databases</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 60per">
 					  <div class="circle-text">60%</div>
 					  <div class="spinner circle"></div>
@@ -192,25 +199,25 @@
 					</div>
 					<p class = "text-skills">Photoshop</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 80per">
 					  <div class="circle-text">80%</div>
 					  <div class="spinner circle"></div>
 					  <div class="filler circle"></div>
 					  <div class="mask"></div>
 					</div>
-					<p class = "text-skills"></p>
+					<p class = "text-skills">Placeholder</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 60per">
 					  <div class="circle-text">60%</div>
 					  <div class="spinner circle"></div>
 					  <div class="filler circle"></div>
 					  <div class="mask"></div>
 					</div>
-					<p class = "text-skills"></p>
+					<p class = "text-skills">Placeholder</p>
 				</div>
-				<div class = "col-xs-6 col-md-2">
+				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 100per">
 					  <div class="circle-text">100%</div>
 					  <div class="spinner circle"></div>
@@ -219,15 +226,19 @@
 					</div>
 					<p class = "text-skills">Office</p>
 				</div>
+				<div class = "col-xs-12">
+					<hr></hr>
+				</div>
 			</div>
-			<hr></hr>
 			<div class="row">
 			</div>
 			<div class="row">
 			</div>
-			<h2>Languages</h2>
-			<hr></hr>
+			<h1 class = "text-center">Languages</h1>
 			<div class="row">
+				<div class = "col-xs-12">
+					<hr></hr>
+				</div>			
 				<div class = "col-xs-6 col-md-3">
 					<div class="circle-wrap 100per">
 					  <div class="circle-text">100%</div>
@@ -264,95 +275,131 @@
 					</div>
 					<p class = "text-skills">Spanish</p>
 				</div>
+				<div class = "col-xs-12">
+					<hr></hr>
+				</div>
 			</div>
-			<hr></hr>
 		</div>
 	</div>
 	
 	<div class = "div-portfolio" id ="portfolio">
 		<div class = "container div-main-width">
-			<h2>Portfolio</h2>
+			<h1 class = "text-center">Portfolio</h1>
 
-			<div id="carouselPortfolio" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselPortfolio" data-slide-to="1"></li>
-				    <li data-target="#carouselPortfolio" data-slide-to="2"></li>
-				    <li data-target="#carouselPortfolio" data-slide-to="3"></li>
-				  </ol>
-
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-					    <div class="item active">
-					      	<a href="http://oliverfeindt.tumblr.com/" target="_blank">
-							<img class = "img-responsive' src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project1">
-						</a>
-					    </div>
-
-					    <div class="item">
-					    	<a href="http://oliverfeindt.tumblr.com/" target="_blank">
-							<img class = "img-responsive' src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project2">
-						</a>
-					    </div>
-
-					    <div class="item">
-					      <a href="http://oliverfeindt.tumblr.com/" target="_blank">
-							<img class = "img-responsive' src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project3">
-						</a>
-					    </div>
-
-					    <div class="item">
-					      <a href="http://oliverfeindt.tumblr.com/" target="_blank">
-							<img class = "img-responsive' src="https://40.media.tumblr.com/3a41139b1701255ec4ad9aa42e65f33a/tumblr_o0e4iiwdmM1v42u8ko1_1280.png" alt="Project4">
-						</a>
-					    </div>
-				  </div>
-			</div>
 		</div>
 	</div>
 
 	<div class = "div-contact" id ="contact">
 		<div class = "container div-main-width">
-			<h2>Contact</h2>
-			<hr></hr>
+			<h1 class = "text-center">Contact</h1>
 			<div class ="row">
-				<div class ="col-md-6">
+				<div class = "col-xs-12">
+					<hr></hr>
+					<br></br>
+				</div>
+				
+				<div class = "col-md-2 col-xs-6">
+					<a href="https://github.com/ollieboard/" target="_blank">
+						<h1><i class="fa fa-github fa-fw"></i></h1>
+				  </a>
+				</div>
+				<div class = "col-md-2 col-xs-6">
+					<a href="http://oliverfeindt.tumblr.com/" target="_blank">
+						<h1><i class="fa fa-tumblr fa-fw"></i></h1>
+				  </a>
+				</div>
+				<div class = "col-md-2 col-xs-6">
+					<a href="http://instagram.com/oliverfeindt/" target="_blank">
+						<h1><i class="fa fa-instagram fa-fw"></i></h1>
+				  </a>
+				</div>
+				<div class = "col-md-2 col-xs-6">
+					<a href="https://de.linkedin.com/in/oliver-feindt-66370697/" target="_blank">
+						<h1><i class="fa fa-linkedin fa-fw"></i></h1>
+				  </a>
+				</div>
+				<div class = "col-md-2 col-xs-6">
+					<a href="https://github.com/ollieboard/" target="_blank">
+						<h1><i class="fa fa-xing fa-fw"></i></h1>
+				  </a>
+				</div>
+				<div class = "col-md-2 col-xs-6">
+					<a href="https://github.com/ollieboard/" target="_blank">
+						<h1><i class="fa fa-fire fa-fw"></i></h1>
+				  </a>
+				</div>
+				<!--<div class ="col-md-6 col-xs-12">
 				  <a href="https://github.com/ollieboard/" target="_blank">
-					<i class="fa fa-github fa-fw"></i>github
+					<div class = "col-xs-2">
+						<h2><i class="fa fa-github fa-fw"></i></h2>
+					</div>
+					<div class ="col-xs-9">
+						<h4>github</h4>
+					</div>
 				  </a>
 				</div>
-				<div class ="col-md-6">
+				<div class ="col-md-6 col-xs-12">
 				  <a href="http://oliverfeindt.tumblr.com/" target="_blank">
-					<i class="fa fa-tumblr fa-fw"></i>tumblr
+					<div class = "col-xs-2">
+						<h2><i class="fa fa-tumblr fa-fw"></i></h2>
+					</div>
+					<div class ="col-xs-9">
+						<h4>tumblr</h4>
+					</div>
 				  </a>
 				</div>
-				<div class ="col-md-6">
-				  <a href="http://instagram.com/oliverfeindt/" target="_blank">
-					<i class="fa fa-instagram fa-fw"></i>instagram
-				  </a>
-				</div>
-				<div class ="col-md-6">
-				  <a href="https://de.linkedin.com/in/oliver-feindt-66370697/" target="_blank">
-					<i class="fa fa-linkedin fa-fw"></i>linkedin
-				  </a>
-				</div>
-				<div class ="col-md-6">
+				<div class ="col-md-6 col-xs-12">
 				  <a href="https://www.xing.com/profile/Oliver_Feindt2/" target="_blank">
-					<i class="fa fa-xing fa-fw"></i>xing
+					<div class = "col-xs-2">
+						<h2><i class="fa fa-instagram fa-fw"></i></h2>
+					</div>
+					<div class ="col-xs-9">
+						<h4>instagram</h4>
+					</div>
 				  </a>
 				</div>
-				<div class ="col-md-6">
+				<div class ="col-md-6 col-xs-12">
+				  <a href="https://de.linkedin.com/in/oliver-feindt-66370697/" target="_blank">
+					<div class = "col-xs-2">
+						<h2><i class="fa fa-linkedin fa-fw"></i></h2>
+					</div>
+					<div class ="col-xs-9">
+						<h4>linkedin</h4>
+					</div>
+				  </a>
+				</div>
+				<div class ="col-md-6 col-xs-12">
 				  <a href="http://www.freecodecamp.com/ollieboard/" target="_blank">
-					<i class="fa fa-fire fa-fw"></i>freecodecamp
+					<div class = "col-xs-2">
+						<h2><i class="fa fa-xing fa-fw"></i></h2>
+					</div>
+					<div class ="col-xs-9">
+						<h4>xing</h4>
+					</div>
 				  </a>
 				</div>
+				<div class ="col-md-6 col-xs-12">
+				  <a href="http://www.freecodecamp.com/ollieboard/" target="_blank">
+					<div class = "col-xs-2">
+						<h2><i class="fa fa-fire fa-fw"></i></h2>
+					</div>
+					<div class ="col-xs-9">
+						<h4>freecodecamp</h4>
+					</div>
+				  </a>
+				</div>-->
+				<div class = "col-xs-12">
+					<br></br>
+					<hr></hr>
+				</div>
+				
 			</div>
-			<hr></hr>
 		</div>
 	</div>
     	<script src='js/jquery-2.1.4.min.js'></script>
-		<script src='js/bootstrap.min.js'></script>
-		<script src='js/script.js'></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/background-check.min.js"></script>
+	<script src='js/script.js'></script>
   </body>
 </html>
