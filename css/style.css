@@ -245,6 +245,13 @@ body{
 	padding-bottom: 120px;
 }
 
+.div-main-width-wide{
+	font-weight: 300;
+	width: 90%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
 .div-main-width .row{
 	padding-top: 30px;
 }

@@ -240,7 +240,7 @@ body{
 
 .div-main-width{
 	font-weight: 300;
-	width: 80%;
+	width: 90%;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
@@ -325,7 +325,7 @@ body{
 }
 
 .mask {
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	position: absolute;
 	top: 0;
