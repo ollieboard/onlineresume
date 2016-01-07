@@ -1,14 +1,18 @@
 $(document).ready(function(){
-	
-	
 	setNavbar();
+	
+	BackgroundCheck.init({
+		targets: '.target'
+	  });
 	
 	$(window).resize(function(){
 		setNavbar();
+		BackgroundCheck.refresh();
 	});
 	
 	$(window).scroll(function(){
 		setNavbar();
+		BackgroundCheck.refresh();
 	});
 	
 	function setNavbar(){
