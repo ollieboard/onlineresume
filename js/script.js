@@ -164,7 +164,9 @@ $(document).ready(function(){
 			$('#timeline-astrium').addClass('timeline-inverted');
 			$('#timeline-exchange').addClass('timeline-inverted');
 			
-			if (windowWidth < 400){
+			if (windowWidth < 350) {
+				$('.timeline-panel').css('width', 76+"%");
+			} else if (windowWidth < 400){
 				$('.timeline-panel').css('width', 80+"%");
 			} else if (windowWidth < 600){
 				$('.timeline-panel').css('width', 84+"%");
