@@ -71,8 +71,8 @@ $(document).ready(function(){
 		var windowScroll = $(window).scrollTop();
 
 		if(windowScroll+50 > distanceContact){
-			$('#navbar-pos').css('position', 'fixed');
-			$('#navbar-pos').css('top', '0');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#contactlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -80,8 +80,8 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#portlink').removeClass('link-active');
 		} else if (windowScroll+50> distancePort){
-			$('#navbar-pos').css('position', 'fixed');
-			$('#navbar-pos').css('top', '0');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#portlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -89,8 +89,8 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll+50 > distanceSkills){
-			$('#navbar-pos').css('position', 'fixed');
-			$('#navbar-pos').css('top', '0');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#skilllink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -99,8 +99,8 @@ $(document).ready(function(){
 			$('#contactlink').removeClass('link-active');
 			addCircles();		
 		} else if (windowScroll+50 > distanceQual){
-			$('#navbar-pos').css('position', 'fixed');
-			$('#navbar-pos').css('top', '0');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#quallink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -108,8 +108,8 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll > distanceBar){
-			$('#navbar-pos').css('position', 'fixed');
-			$('#navbar-pos').css('top', '0');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#aboutlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
@@ -117,8 +117,8 @@ $(document).ready(function(){
 			$('#portlink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else {
-			$('#navbar-pos').css('position', '');
-			$('#navbar-pos').css('top', '');
+			$('.navbar-pos').css('position', '');
+			$('.navbar-pos').css('top', '');
 			$('#homelink').addClass('link-active');
 			$('#aboutlink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
