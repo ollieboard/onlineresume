@@ -165,15 +165,15 @@ $(document).ready(function(){
 			$('#timeline-exchange').addClass('timeline-inverted');
 			
 			if (windowWidght < 300) {
-				$('.timeline-panel').css('width', 72+"%");
+				$('.timeline-panel').css('width', 70+"%");
 			} else if (windowWidth < 350) {
-				$('.timeline-panel').css('width', 76+"%");
+				$('.timeline-panel').css('width', 74+"%");
 			} else if (windowWidth < 400){
-				$('.timeline-panel').css('width', 80+"%");
+				$('.timeline-panel').css('width', 78+"%");
 			} else if (windowWidth < 600){
-				$('.timeline-panel').css('width', 84+"%");
+				$('.timeline-panel').css('width', 82+"%");
 			} else{
-				$('.timeline-panel').css('width', 88+"%");
+				$('.timeline-panel').css('width', 86+"%");
 			}
 			
 		} else {
