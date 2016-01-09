@@ -75,7 +75,6 @@ body.noscroll
 }
 
 .navbar-default{
-	z-index: 100;
 	width: 100%;
 	border: 0px solid;
 	display: inline-block;
