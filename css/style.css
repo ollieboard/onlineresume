@@ -13,6 +13,13 @@ body{
   height: 100%;
 }
 
+body.noscroll
+{
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+}
+
 .div-home-buffer{
 	position: relative;
 	width: 100%;
@@ -47,7 +54,7 @@ body{
 .jumbotron .container h1 {
     	padding-bottom: 20px;
 	font-weight: 600;
-    	border-bottom: 1px solid;
+    	/*border-bottom: 1px solid;*/
 	letter-spacing: 5px;
     	display: inline-block;
 }
@@ -166,6 +173,19 @@ body{
 	background-color: #F3EFE0;
 }
 
+.div-qualifications a{
+	color: #679977;
+}
+
+.div-qualifications a:hover{
+	color: #333;
+	text-decoration: none;
+}
+
+.div-qualifications a:visited{
+	text-decoration: none;
+}
+
 .div-skills{
 	background-color: white;
   	color: #333;
@@ -196,11 +216,18 @@ body{
 	top: 0;
 	left: 0;
 	height: 100%;
-	background-color: #67AA88;
+	width: 100%;
+	/*background-color: #67AA88;*/
+	background-color: #F3EFE0;
 	color: #333;
 	margin-right: -20px;
 	padding-right: 20px;
 	overflow: auto;
+}
+
+.div-portfolio-info hr{
+	background-color: #333;
+	height: 1px;
 }
 
 .div-portfolio-info h3{
@@ -228,9 +255,7 @@ body{
 }
 
 .div-portfolio-info p{
-	padding-top: 20px;
 	padding-left: 20px;
-	padding-bottom: 20px;
 }
 
 .div-portfolio .col-xs-12{

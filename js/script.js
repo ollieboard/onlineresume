@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	setNavbar();
+	setTimeline();
 	
 	/*BackgroundCheck.init({
 		targets: '.target'
@@ -7,6 +8,7 @@ $(document).ready(function(){
 	
 	$(window).resize(function(){
 		setNavbar();
+		setTimeline();
 		//BackgroundCheck.refresh();
 	});
 	
@@ -14,6 +16,38 @@ $(document).ready(function(){
 		setNavbar();
 		//BackgroundCheck.refresh();
 	});
+	
+	/*$('.div-portfolio-info').bind('mousewheel DOMMouseScroll', function(e) {
+		var scrollTo = null;
+
+		if (e.type == 'mousewheel') {
+			scrollTo = (e.originalEvent.wheelDelta * -1);
+		}
+		else if (e.type == 'DOMMouseScroll') {
+			scrollTo = 40 * e.originalEvent.detail;
+		}
+
+		if (scrollTo) {
+			e.preventDefault();
+			$(this).scrollTop(scrollTo + $(this).scrollTop());
+		}
+	});*/
+	
+	
+	$('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+		  }
+		}
+	  });
 	
 	function setNavbar(){
 	
@@ -117,7 +151,46 @@ $(document).ready(function(){
 		$('.100per .spinner').css('animation', '');
 		$('.100per .filler').css('animation', '');
 		$('.100per .mask').css('animation', '');
-	}
+	};
+	
+	function setTimeline(){
+		var windowWidth = $('.timeline').width();
+		
+		if (windowWidth < 800) {
+			document.getElementById('timeline-original').disabled  = true;
+			document.getElementById('timeline-modified').disabled = false;
+			
+			$('#timeline-airbus').addClass('timeline-inverted');
+			$('#timeline-astrium').addClass('timeline-inverted');
+			$('#timeline-exchange').addClass('timeline-inverted');
+			
+			if (windowWidth < 400){
+				$('.timeline-panel').css('width', 80+"%");
+			} else if (windowWidth < 600){
+				$('.timeline-panel').css('width', 84+"%");
+			} else{
+				$('.timeline-panel').css('width', 88+"%");
+			}
+			
+		} else {
+			document.getElementById('timeline-original').disabled  = false;
+			document.getElementById('timeline-modified').disabled = true;
+			$('#timeline-airbus').removeClass('timeline-inverted');
+			$('#timeline-astrium').removeClass('timeline-inverted');
+			$('#timeline-exchange').removeClass('timeline-inverted');
+			
+			if (windowWidth > 1400){
+				$('.timeline-panel').css('width', 48+"%");
+			} else if (windowWidth > 1000){
+				$('.timeline-panel').css('width', 46 +"%");
+			} else {
+				$('.timeline-panel').css('width', 44 +"%");
+			}
+		}		
+	};
+	
+
+	
 });
 
 $(document).on('click','.navbar-collapse.in',function(e) {

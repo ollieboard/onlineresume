@@ -9,8 +9,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
 	<link rel="stylesheet" href= "css/font-awesome.min.css">
-	<link rel="stylesheet" href= "css/timeline.css">
-	<!--<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"></link>-->
+	<link rel="stylesheet" href= "css/timeline.css" id ="timeline-original">
+	<link rel="stylesheet" href= "css/timeline_modified.css" id ="timeline-modified">
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"></link>
 	<!--<script src="js/background-check.min.js"></script>-->
   </head>
 
@@ -19,17 +20,19 @@
 	  <div class = "div-home jumbotron">
 		<div class = "container">
 			<h1 class = "text-center target">Oliver Feindt</h1>
-			<br></br>
-			<h2 class = "text-center target">online resume</h2>
+			<!--<br></br>
+			<h2 class = "text-center target">online resume</h2>-->
 		</div>
 	  </div>
 	  <div class ="bg-image">
 		<!--<img src="https://40.media.tumblr.com/b63514d9d3de1e95050886954de75061/tumblr_o0e2582P6D1v42u8ko1_1280.png">-->
 		<img src="img/DSC_2752.png">
 	  </div>
-	  <div class = "arrow-box">
-			<div class ="arrow target"><i class="fa fa-chevron-down"></i></div>
-	  </div>
+	  <a href="#about">
+		  <div class = "arrow-box">
+				<div class ="arrow target"><i class="fa fa-chevron-down"></i></div>
+		  </div>
+	  </a>
 	</div>
 	<div class ="div-nav" id="navbar">
 		
@@ -105,12 +108,12 @@
 	</div>
 	
 	<div class = "div-qualifications" id ="qualifications">
-		<div class = "container div-main-width-wide">
+		<div class = "container div-main-width">
 			<h1 class = "text-center">Experience and Education</h1>
 			<br></br>
 			<br></br>
 		  <ul class="timeline">
-		    <li>
+		    <li id="timeline-airbus">
 				  <div class="timeline-badge danger"><i class="fa fa-rocket"></i></div>
 				  <div class="timeline-panel">
 				<div class="timeline-heading">
@@ -120,13 +123,15 @@
 				  <h4 class="timeline-title">2012-now</h4>
 				</div>
 				<div class="timeline-body">
+					<br></br>
 				  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
 					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-					<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Bremen, Germany</p>
+					<br></br>
+					<a href="https://goo.gl/maps/JdKgDf5uN3Q2" target="_blank"><p class = "text-bold"><i class = "fa fa-map-marker"></i> Bremen, Germany</p></a>
 				</div>
 				  </div>
 		    </li>
-		    <li class="timeline-inverted">
+		    <li class="timeline-inverted" id="timelline-syseng">
 				  <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i></div>
 				  <div class="timeline-panel">
 				<div class="timeline-heading">
@@ -136,13 +141,15 @@
 				  <h4 class="timeline-title">2013-2015</h4>
 				</div>
 				<div class="timeline-body">
+					<br></br>
 				  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
 					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-					<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> University of Bremen, Germany</p>
+					<br></br>
+					<a href="https://goo.gl/maps/9x5bn4h7uwR2" target="_blank"><p class = "text-bold"><i class = "fa fa-map-marker"></i> University of Bremen, Germany</p></a>
 				</div>
 				  </div>
 		    </li>
-		    <li>
+		    <li id="timeline-astrium">
 				  <div class="timeline-badge warning"><i class="fa fa-cogs"></i></div>
 				  <div class="timeline-panel">
 				<div class="timeline-heading">
@@ -152,13 +159,15 @@
 				  <h4 class="timeline-title">2008-2012</h4>
 				</div>
 				<div class="timeline-body">
+					<br></br>
 				  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
 					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-					<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Bremen, Germany</p>
+					<br></br>
+					<a href="https://goo.gl/maps/JdKgDf5uN3Q2" target="_blank"><p class = "text-bold"><i class = "fa fa-map-marker"></i> Bremen, Germany</p></a>
 				</div>
 				  </div>
 		    </li>
-		    <li class="timeline-inverted">
+		    <li class="timeline-inverted" id="timeline-hochschule">
 				  <div class="timeline-badge success"><i class="fa fa-university"></i></div>
 				  <div class="timeline-panel">
 				<div class="timeline-heading">
@@ -168,13 +177,15 @@
 				  <h4 class="timeline-title">2008-2012</h4>
 				</div>
 				<div class="timeline-body">
+					<br></br>
 				  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
 					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-					<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> University of Applied Sciences Bremen, Germany</p>
+					<br></br>
+					<a href="https://goo.gl/maps/89LtNoMAduG2" target="_blank"><p class = "text-bold"><i class = "fa fa-map-marker"></i> University of Applied Sciences Bremen, Germany</p></a>
 				</div>
 				  </div>
 		    </li>
-		    <li>
+		    <li id = "timeline-exchange">
 				  <div class="timeline-badge primary"><i class="fa fa-map"></i></div>
 				  <div class="timeline-panel">
 				<div class="timeline-heading">
@@ -184,9 +195,11 @@
 				  <h4 class="timeline-title">2005-2006</h4>
 				</div>
 				<div class="timeline-body">
+					<br></br>
 				  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
 					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-					<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Nashville, TN</p>
+					<br></br>
+					<a href="https://goo.gl/maps/oQTLuiuTYc12" target="_blank"><p class = "text-bold"><i class = "fa fa-map-marker"></i> Nashville, TN</p></a>
 				</div>
 				  </div>
 		    </li>
@@ -370,95 +383,85 @@
 			<h1 class = "text-center">Portfolio</h1>
 			<div class = "row">
 				<div class = "col-xs-12 col-md-5 col-md-offset-1">
-					<a href="img/_DSC2267.png" target ="_blank">
+					<a href="img/_DSC1401_2.jpg" target ="_blank">
 						<div class = "div-image-bg">
-							<img class = "img-responsive" alt ="Portfolio Image 1" src="img/_DSC2267.png">
+							<img class = "img-responsive" alt ="Norway - Rondane" src="img/_DSC1401_2.png">
 							<div class = "div-portfolio-icon"><h4><i class="fa fa-expand"></i></h4></div>
 							<div class = "div-portfolio-info">
-								<h3>Project 1</h3>
+								<h3 class = "text-bold">Norway | Rondane</h3>
 								<hr></hr>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-							</div>
+								<p class = "text-bold">Rondane National Park, 2015</p>
+								<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Rondane, Norway</p>
+								</div>
 						</div>
 					</a>
 				</div>
 				<div class = "col-xs-12 col-md-5">
-					<a href="img/_DSC2267.png" target ="_blank">
+					<a href="img/_DSC1679.jpg" target ="_blank">
 						<div class = "div-image-bg">
 							<div class = "div-portfolio-icon"><h4><i class="fa fa-expand"></i></h4></div>
-							<img class = "img-responsive" alt ="Portfolio Image 2" src="img/_DSC2267.png">
+							<img class = "img-responsive" alt =" Norway - Geiranger" src="img/_DSC1679.png">
 							<div class = "div-portfolio-info">
-								<h3>Project 2</h3>
+								<h3 class = "text-bold">Norway | Geiranger</h3>
 								<hr></hr>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-							</div>
+								<p class = "text-bold">Geiranger Fjord, 2015</p>
+								<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Geiranger, Norway</p>
+								</div>
 						</div>
 					</a>
 				</div>
 				<div class = "col-xs-12 col-md-5  col-md-offset-1">
-					<a href="img/_DSC2267.png" target ="_blank">
+					<a href="img/_DSC1972.jpg" target ="_blank">
 						<div class = "div-image-bg">
 							<div class = "div-portfolio-icon"><h4><i class="fa fa-expand"></i></h4></div>
-							<img class = "img-responsive" alt ="Portfolio Image 3" src="img/_DSC2267.png">
+							<img class = "img-responsive" alt ="Norway - Trolltunga" src="img/_DSC1972.png">
 							<div class = "div-portfolio-info">
-								<h3>Project 3</h3>
+								<h3 class = "text-bold">Norway | Trolltunga</h3>
 								<hr></hr>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-							</div>
+								<p class = "text-bold"> Trolltunga, 2015</p>
+								<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Trolltunga, Norway</p>
+								</div>
 						</div>
 					</a>
 				</div>
 				<div class = "col-xs-12 col-md-5">
-					<a href="img/_DSC2267.png" target ="_blank">
+					<a href="img/_DSC1119_2.jpg" target ="_blank">
 						<div class = "div-image-bg">
 							<div class = "div-portfolio-icon"><h4><i class="fa fa-expand"></i></h4></div>
-							<img class = "img-responsive" alt ="Portfolio Image 4" src="img/_DSC2267.png">
+							<img class = "img-responsive" alt ="Norway - Camping" src="img/_DSC1119_2.png">
 							<div class = "div-portfolio-info">
-								<h3>Project 4</h3>
+								<h3 class = "text-bold">Norway | Camping</h3>
 								<hr></hr>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+								<p class = "text-bold">Camping at Lake Mjosa, 2015</p>
+								<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Mjosa, Norway</p>
 								</div>
 						</div>
 					</a>
 				</div>
 				<div class = "col-xs-12 col-md-5 col-md-offset-1">
-					<a href="img/_DSC2267.png" target ="_blank">
+					<a href="img/_DSC2267.jpg" target ="_blank">
 						<div class = "div-image-bg">
 							<div class = "div-portfolio-icon"><h4><i class="fa fa-expand"></i></h4></div>
-							<img class = "img-responsive" alt ="Portfolio Image 5" src="img/_DSC2267.png">
+							<img class = "img-responsive" alt ="Norway - Trolltunga" src="img/_DSC2267.png">
 							<div class = "div-portfolio-info">
-								<h3>Project 5</h3>
+								<h3 class = "text-bold">Norway | Trolltunga</h3>
 								<hr></hr>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-							</div>
+								<p class = "text-bold">Sunrise at Trolltunga, 2015</p>
+								<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Trolltunga, Norway</p>
+								</div>
 						</div>
 					</a>
 				</div>
 				<div class = "col-xs-12 col-md-5">
-					<a href="img/_DSC2267.png" target ="_blank">
+					<a href="img/_DSC2345.jpg" target ="_blank">
 						<div class = "div-image-bg">
 							<div class = "div-portfolio-icon"><h4><i class="fa fa-expand"></i></h4></div>
-							<img class = "img-responsive" alt ="Portfolio Image 6" src="img/_DSC2267.png">
+							<img class = "img-responsive" alt ="Norway - Preikestolen" src="img/_DSC2345.png">
 							<div class = "div-portfolio-info">
-								<h3>Project 6</h3>
+								<h3 class = "text-bold">Norway | Preikestolen</h3>
 								<hr></hr>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-					Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+								<p class = "text-bold">Preikestolen, 2015</p>
+								<p class = "text-green text-bold"><i class = "fa fa-map-marker"></i> Preikestolen, Norway</p>
 							</div>
 						</div>
 					</a>
@@ -579,5 +582,6 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/background-check.min.js"></script>
 	<script src='js/script.js'></script>
+	<script src="https://rawgithub.com/brandonaaron/jquery-mousewheel/master/jquery.mousewheel.js"></script>
   </body>
 </html>
