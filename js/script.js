@@ -154,9 +154,33 @@ $(document).ready(function(){
 	};
 	
 	function setTimeline(){
+		document.getElementById('timeline-original').disabled  = true;
+		//document.getElementById('timeline-modified').disabled = false;
+		$('#timeline-airbus').addClass('timeline-inverted');
+		$('#timeline-astrium').addClass('timeline-inverted');
+		$('#timeline-exchange').addClass('timeline-inverted');
+			
 		var windowWidth = $('.timeline').width();
 		
-		if (windowWidth < 800) {
+		if (windowWidth > 1400){
+			$('.timeline-panel').css('width', 94+"%");
+		} else if (windowWidth > 1000) {
+			$('.timeline-panel').css('width', 92+"%");
+		} else if (windowWidth > 800) {
+			$('.timeline-panel').css('width', 92+"%");	
+		} else if (windowWidth > 600) {
+			$('.timeline-panel').css('width', 88+"%");
+		} else if (windowWidth > 400) {
+			$('.timeline-panel').css('width', 84+"%");
+		} else if (windowWidth > 350) {
+			$('.timeline-panel').css('width', 80+"%");
+		} else if (windowWidth > 300){
+			$('.timeline-panel').css('width', 76+"%");
+		} else {
+			$('.timeline-panel').css('width', 74+"%");
+		}
+		
+		/*if (windowWidth < 800) {
 			document.getElementById('timeline-original').disabled  = true;
 			document.getElementById('timeline-modified').disabled = false;
 			
@@ -165,15 +189,15 @@ $(document).ready(function(){
 			$('#timeline-exchange').addClass('timeline-inverted');
 			
 			if (windowWidght < 300) {
-				$('.timeline-panel').css('width', 70+"%");
+				$('.timeline-panel').css('width', 72+"%");
 			} else if (windowWidth < 350) {
-				$('.timeline-panel').css('width', 74+"%");
+				$('.timeline-panel').css('width', 76+"%");
 			} else if (windowWidth < 400){
-				$('.timeline-panel').css('width', 78+"%");
+				$('.timeline-panel').css('width', 80+"%");
 			} else if (windowWidth < 600){
 				$('.timeline-panel').css('width', 82+"%");
 			} else{
-				$('.timeline-panel').css('width', 86+"%");
+				$('.timeline-panel').css('width', 84+"%");
 			}
 			
 		} else {
@@ -190,7 +214,7 @@ $(document).ready(function(){
 			} else {
 				$('.timeline-panel').css('width', 44 +"%");
 			}
-		}		
+		}*/	
 	};
 	
 
