@@ -2,7 +2,7 @@ $(document).ready(function(){
 	setNavbar();
 	setTimeline();
 	
-	$('#nav-button').click(function(){
+	$('#nav-button').on('click touchstart', function () {
 		
 		if($('.navbar-collapse').hasClass('in')){
 			$('#span-top').css('animation', 'rotate2 0.2s ease-in forwards');
