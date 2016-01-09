@@ -2,6 +2,17 @@ $(document).ready(function(){
 	setNavbar();
 	setTimeline();
 	
+	$('#nav-button').click(function(){
+		
+		if($('.navbar-collapse').hasClass('in')){
+			$('#span-top').css('animation', 'rotate2 0.2s ease-in forwards');
+			$('#span-bottom').css('animation', 'rotateBack2 0.2s ease-in forwards');
+		} else {
+			$('#span-top').css('animation', 'rotate 0.2s ease-in forwards');
+			$('#span-bottom').css('animation', 'rotateBack 0.2s ease-in forwards');
+		}
+	});
+	
 	/*BackgroundCheck.init({
 		targets: '.target'
 	});*/
@@ -221,8 +232,8 @@ $(document).ready(function(){
 	
 });
 
-$(document).on('click','.navbar-collapse.in',function(e) {
+/*$(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') ) {
         $(this).collapse('hide');
     }
-});
+});*/

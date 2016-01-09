@@ -77,10 +77,69 @@ body.noscroll
 	border-radius: 0;
 }
 
+.navbar.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-collapse{
+	position: relative;
+	/*position: fixed;
+	top: 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #333;*/
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F3EFE0;
+}
+
+.navbar-toggle{
+	height: 32px;
+	width: 42px;
+	border: 0px;
+}
+
+/*.navbar-default .navbar-toggle .icon-bar{
+	animation: rotate 2s linear infinite;
+}*/
+
+@keyframes rotate {
+  0%   { transform: rotate(0deg); position: absolute; top: 12px;}
+ 100% { transform: rotate(135deg); position: absolute; top: 15px;}
+}
+
+@keyframes rotate2 {
+  0% { transform: rotate(135deg); position: absolute; top: 15px;}
+  100%   { transform: rotate(0deg); position: absolute; top: 12px;}
+}
+
+@keyframes rotateBack {
+  0%   { transform: rotate(0deg); position: absolute; bottom: 12px;}
+  100% { transform: rotate(45deg); position: absolute; bottom: 15px;}
+}
+
+@keyframes rotateBack2 {
+	0% { transform: rotate(45deg); position: absolute; bottom: 15px;}
+	100%   { transform: rotate(0deg); position: absolute; bottom: 12px;}
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+/*.navbar-default .navbar-toggle:hover .icon-bar{
+	background-color: #777;
+}*/
+
 
 .link-active{
 	/*border-bottom: 2px solid;*/
-	background-color: #608875;#777;*/
+	background-color: #608875;/*#777;*/
 }
 
 
