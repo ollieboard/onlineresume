@@ -7,7 +7,6 @@ $(document).ready(function(){
 		if($('.navbar-collapse').hasClass('in')){
 			$('#span-top').css('animation', 'rotate2 0.2s ease-in forwards');
 			$('#span-bottom').css('animation', 'rotateBack2 0.2s ease-in forwards');
-			$('#navbar-main').collapse('hide');
 		} else {
 			$('#span-top').css('animation', 'rotate 0.2s ease-in forwards');
 			$('#span-bottom').css('animation', 'rotateBack 0.2s ease-in forwards');
