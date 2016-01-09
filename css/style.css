@@ -374,7 +374,8 @@ body.noscroll
 }
 
 .div-contact i{
-	padding-right: 50px;
+	padding-right: 34px;
+	vertical-align: middle;
 }
 
 .div-contact a i{
@@ -392,6 +393,10 @@ body.noscroll
 .div-contact a:hover{
 	color: #555;
 	text-decoration: none;
+}
+
+.div-contact col-xs-9{
+	height: 100%;
 }
 
 .div-skills .col-md-2{
