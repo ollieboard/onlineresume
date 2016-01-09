@@ -5,9 +5,14 @@ $(document).ready(function(){
 	$('#nav-button').on('click touchstart', function () {
 		
 		if($('.navbar-collapse').hasClass('in')){
+			
 			$('#span-top').css('animation', 'rotate2 0.2s ease-in forwards');
 			$('#span-bottom').css('animation', 'rotateBack2 0.2s ease-in forwards');
+			$('#span-top').removeClass('span-top-rotated');
+			$('#span-bottom').removeClass('span-bottom-rotated');
 		} else {
+			$('#span-top').addClass('span-top-rotated');
+			$('#span-bottom').addClass('span-bottom-rotated');
 			$('#span-top').css('animation', 'rotate 0.2s ease-in forwards');
 			$('#span-bottom').css('animation', 'rotateBack 0.2s ease-in forwards');
 		}

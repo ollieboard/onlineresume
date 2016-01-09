@@ -112,24 +112,38 @@ body.noscroll
 	animation: rotate 2s linear infinite;
 }*/
 
+.span-top-rotated{
+	position: absolute;
+	top: 50%;
+	padding: 0;
+	margin-top: -1px;
+}
+
+.span-bottom-rotated{
+	position: absolute;
+	bottom: 50%;
+	padding: 0;
+	margin-bottom: -1px;
+}
+
 @keyframes rotate {
-  0%   { transform: rotate(0deg); position: absolute; top: 12px;}
- 100% { transform: rotate(135deg); position: absolute; top: 15px;}
+  0%   { transform: rotate(0deg);}
+ 100% { transform: rotate(135deg);}
 }
 
 @keyframes rotate2 {
-  0% { transform: rotate(135deg); position: absolute; top: 15px;}
-  100%   { transform: rotate(0deg); position: absolute; top: 12px;}
+  0% { transform: rotate(135deg);}
+  100%   { transform: rotate(0deg);}
 }
 
 @keyframes rotateBack {
-  0%   { transform: rotate(0deg); position: absolute; bottom: 12px;}
-  100% { transform: rotate(45deg); position: absolute; bottom: 15px;}
+  0%   { transform: rotate(0deg);}
+  100% { transform: rotate(45deg);}
 }
 
 @keyframes rotateBack2 {
-	0% { transform: rotate(45deg); position: absolute; bottom: 15px;}
-	100%   { transform: rotate(0deg); position: absolute; bottom: 12px;}
+	0% { transform: rotate(45deg);}
+	100%   { transform: rotate(0deg);}
 }
 
 .navbar-default .navbar-toggle,
