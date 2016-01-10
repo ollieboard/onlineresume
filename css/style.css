@@ -29,9 +29,11 @@ body.noscroll
 .div-home{
 	position: fixed;
 	height: 100%;
-	/*background-image: url(../img/pluto-new-horizons-false-color-1920.jpg);*/
-	/*background: url(https://40.media.tumblr.com/b63514d9d3de1e95050886954de75061/tumblr_o0e2582P6D1v42u8ko1_1280.png);*/
-	background: transparent;
+	background: url(../img/DSC_2752.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #333;
 	z-index: 10;
 }
@@ -42,14 +44,14 @@ body.noscroll
 	height: 50px;
 }
 
-.bg-image{
+/*.bg-image{
 	position: fixed;
 	display: block;
 	left: 50%;
 	top: 50%;
-	margin-top: -678px;
-	margin-left: -1024px;
-}
+	margin-top: -1632px;
+	margin-left: -2464px;
+}*/
 
 .jumbotron .container{
 	position: relative;
@@ -203,7 +205,7 @@ body.noscroll
     animation-duration: 1.4s;
     animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	color: #F3EFE0;
+	color: #333;
 }
 
 @keyframes bounce {
@@ -211,23 +213,6 @@ body.noscroll
     50%  {padding-top: 26px;}
     100% {padding-top: 6px;}
 }
-
-/*colors depending on background:
-.arrow.background--light{
-	color: #333;
-}
-
-.arrow.background--dark{
-	color: #F3EFE0;
-}
-
-.text-center.background--light{
-	color:#333;
-}
-
-.text-center.background--dark{
-	color: #F3EFE0;
-}*/
 
 .div-about{
 	background-color: #333;
@@ -291,7 +276,6 @@ body.noscroll
 	left: 0;
 	height: 100%;
 	width: 100%;
-	/*background-color: #67AA88;*/
 	background-color: #F3EFE0;
 	color: #333;
 	margin-right: -20px;

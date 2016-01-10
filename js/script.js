@@ -18,36 +18,14 @@ $(document).ready(function(){
 		}
 	});
 	
-	/*BackgroundCheck.init({
-		targets: '.target'
-	});*/
-	
 	$(window).resize(function(){
 		setNavbar();
 		setTimeline();
-		//BackgroundCheck.refresh();
 	});
 	
 	$(window).scroll(function(){
 		setNavbar();
-		//BackgroundCheck.refresh();
 	});
-	
-	/*$('.div-portfolio-info').bind('mousewheel DOMMouseScroll', function(e) {
-		var scrollTo = null;
-
-		if (e.type == 'mousewheel') {
-			scrollTo = (e.originalEvent.wheelDelta * -1);
-		}
-		else if (e.type == 'DOMMouseScroll') {
-			scrollTo = 40 * e.originalEvent.detail;
-		}
-
-		if (scrollTo) {
-			e.preventDefault();
-			$(this).scrollTop(scrollTo + $(this).scrollTop());
-		}
-	});*/
 	
 	
 	$('a[href*=#]').click(function() {
@@ -169,7 +147,7 @@ $(document).ready(function(){
 	};
 	
 	function setTimeline(){
-		document.getElementById('timeline-original').disabled  = true;
+		//document.getElementById('timeline-original').disabled  = true;
 		//document.getElementById('timeline-modified').disabled = false;
 		$('#timeline-airbus').addClass('timeline-inverted');
 		$('#timeline-astrium').addClass('timeline-inverted');
@@ -194,50 +172,5 @@ $(document).ready(function(){
 		} else {
 			$('.timeline-panel').css('width', 74+"%");
 		}
-		
-		/*if (windowWidth < 800) {
-			document.getElementById('timeline-original').disabled  = true;
-			document.getElementById('timeline-modified').disabled = false;
-			
-			$('#timeline-airbus').addClass('timeline-inverted');
-			$('#timeline-astrium').addClass('timeline-inverted');
-			$('#timeline-exchange').addClass('timeline-inverted');
-			
-			if (windowWidght < 300) {
-				$('.timeline-panel').css('width', 72+"%");
-			} else if (windowWidth < 350) {
-				$('.timeline-panel').css('width', 76+"%");
-			} else if (windowWidth < 400){
-				$('.timeline-panel').css('width', 80+"%");
-			} else if (windowWidth < 600){
-				$('.timeline-panel').css('width', 82+"%");
-			} else{
-				$('.timeline-panel').css('width', 84+"%");
-			}
-			
-		} else {
-			document.getElementById('timeline-original').disabled  = false;
-			document.getElementById('timeline-modified').disabled = true;
-			$('#timeline-airbus').removeClass('timeline-inverted');
-			$('#timeline-astrium').removeClass('timeline-inverted');
-			$('#timeline-exchange').removeClass('timeline-inverted');
-			
-			if (windowWidth > 1400){
-				$('.timeline-panel').css('width', 48+"%");
-			} else if (windowWidth > 1000){
-				$('.timeline-panel').css('width', 46 +"%");
-			} else {
-				$('.timeline-panel').css('width', 44 +"%");
-			}
-		}*/	
 	};
-	
-
-	
 });
-
-/*$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
-    }
-});*/
