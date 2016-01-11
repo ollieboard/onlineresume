@@ -22,14 +22,14 @@ $(document).ready(function(){
 		setTimeline();
 	});
 	
-	$(window).scroll(function(){
+	window.addEventListener( "scroll", function( event ) {
 		setNavbar();
 	});
 	
-	$('body').on({'touchmove': function() { 
-        setNavbar();
-		}
-	});
+	/*$(window).scroll(function(){
+		setNavbar();
+	});*/
+	
 	
 	
 	$('a[href*=#]').click(function() {
