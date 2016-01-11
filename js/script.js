@@ -57,8 +57,8 @@ $(document).ready(function(){
 		var windowScroll = $(window).scrollTop();
 
 		if(windowScroll+50 > distanceContact){
-			$('.navbar-pos').addClass('nav-fixed');
-			$('#home-div').removeClass('bg-image');
+			$('.navbar-pos').addClass('.nav-fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#contactlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -66,8 +66,8 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#portlink').removeClass('link-active');
 		} else if (windowScroll+50> distancePort){
-			$('.navbar-pos').addClass('nav-fixed');
-			//$('#home-div').removeClass('bg-image');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#portlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -75,8 +75,8 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll+50 > distanceSkills){
-			$('.navbar-pos').addClass('nav-fixed');
-			//$('#home-div').removeClass('bg-image');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#skilllink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -85,8 +85,8 @@ $(document).ready(function(){
 			$('#contactlink').removeClass('link-active');
 			addCircles();		
 		} else if (windowScroll+50 > distanceQual){
-			$('.navbar-pos').addClass('nav-fixed');
-			//$('#home-div').removeClass('bg-image');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#quallink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -94,8 +94,8 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll > distanceBar){
-			$('.navbar-pos').addClass('nav-fixed');
-			//$('#home-div').removeClass('bg-image');
+			$('.navbar-pos').css('position', 'fixed');
+			$('.navbar-pos').css('top', '0');
 			$('#aboutlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
@@ -103,10 +103,8 @@ $(document).ready(function(){
 			$('#portlink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else {
-			$('.navpar-pos').css('position', 'absolute');
-			$('.navpar-pos').css('top', '0');
-			$('.navbar-pos').removeClass('nav-fixed');
-			//$('#home-div').addClass('bg-image');
+			$('.navbar-pos').css('position', 'absolute');
+			$('.navbar-pos').css('top', '');
 			$('#homelink').addClass('link-active');
 			$('#aboutlink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
