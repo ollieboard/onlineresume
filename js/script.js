@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 		if(windowScroll+50 > distanceContact){
 			$('.navbar-pos').addClass('nav-fixed');
-			//$('#home-div').removeClass('bg-image');
+			$('#home-div').removeClass('bg-image');
 			$('#contactlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -103,6 +103,7 @@ $(document).ready(function(){
 			$('#portlink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else {
+			$('.navpar-pos').css('position', 'relative');
 			$('.navbar-pos').removeClass('nav-fixed');
 			//$('#home-div').addClass('bg-image');
 			$('#homelink').addClass('link-active');
