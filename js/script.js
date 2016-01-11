@@ -59,6 +59,7 @@ $(document).ready(function(){
 		if(windowScroll+50 > distanceContact){
 			$('.navbar-pos').addClass('.nav-fixed');
 			$('.navbar-pos').css('top', '0');
+			$('#home-div').removeClass('bg-image');
 			$('#contactlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -68,6 +69,7 @@ $(document).ready(function(){
 		} else if (windowScroll+50> distancePort){
 			$('.navbar-pos').css('position', 'fixed');
 			$('.navbar-pos').css('top', '0');
+			$('#home-div').removeClass('bg-image');
 			$('#portlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -77,6 +79,7 @@ $(document).ready(function(){
 		} else if (windowScroll+50 > distanceSkills){
 			$('.navbar-pos').css('position', 'fixed');
 			$('.navbar-pos').css('top', '0');
+			$('#home-div').removeClass('bg-image');
 			$('#skilllink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -87,6 +90,7 @@ $(document).ready(function(){
 		} else if (windowScroll+50 > distanceQual){
 			$('.navbar-pos').css('position', 'fixed');
 			$('.navbar-pos').css('top', '0');
+			$('#home-div').removeClass('bg-image');
 			$('#quallink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -96,6 +100,7 @@ $(document).ready(function(){
 		} else if (windowScroll > distanceBar){
 			$('.navbar-pos').css('position', 'fixed');
 			$('.navbar-pos').css('top', '0');
+			$('#home-div').removeClass('bg-image');
 			$('#aboutlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
@@ -105,6 +110,7 @@ $(document).ready(function(){
 		} else {
 			$('.navbar-pos').css('position', 'absolute');
 			$('.navbar-pos').css('top', '');
+			$('#home-div').addClass('bg-image');
 			$('#homelink').addClass('link-active');
 			$('#aboutlink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
