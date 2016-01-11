@@ -103,7 +103,8 @@ $(document).ready(function(){
 			$('#portlink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else {
-			$('.navpar-pos').css('position', 'relative');
+			$('.navpar-pos').css('position', 'absolute');
+			$('.navpar-pos').css('top', '0');
 			$('.navbar-pos').removeClass('nav-fixed');
 			//$('#home-div').addClass('bg-image');
 			$('#homelink').addClass('link-active');
