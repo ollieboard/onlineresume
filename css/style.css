@@ -44,6 +44,11 @@ body.noscroll
 	height: 50px;
 }
 
+.nav-fixed{
+	position: fixed;
+	top: 0;
+}
+
 /*.bg-image{
 	position: fixed;
 	display: block;

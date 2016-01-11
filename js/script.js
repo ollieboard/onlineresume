@@ -57,8 +57,7 @@ $(document).ready(function(){
 		var windowScroll = $(window).scrollTop();
 
 		if(windowScroll+50 > distanceContact){
-			$('.navbar-pos').css('position', 'fixed');
-			$('.navbar-pos').css('top', '0');
+			$('.navbar-pos').addClass('nav-fixed');
 			$('#contactlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -66,8 +65,7 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#portlink').removeClass('link-active');
 		} else if (windowScroll+50> distancePort){
-			$('.navbar-pos').css('position', 'fixed');
-			$('.navbar-pos').css('top', '0');
+			$('.navbar-pos').addClass('nav-fixed');
 			$('#portlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -75,8 +73,7 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll+50 > distanceSkills){
-			$('.navbar-pos').css('position', 'fixed');
-			$('.navbar-pos').css('top', '0');
+			$('.navbar-pos').addClass('nav-fixed');
 			$('#skilllink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -85,8 +82,7 @@ $(document).ready(function(){
 			$('#contactlink').removeClass('link-active');
 			addCircles();		
 		} else if (windowScroll+50 > distanceQual){
-			$('.navbar-pos').css('position', 'fixed');
-			$('.navbar-pos').css('top', '0');
+			$('.navbar-pos').addClass('nav-fixed');
 			$('#quallink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -94,8 +90,7 @@ $(document).ready(function(){
 			$('#skilllink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll > distanceBar){
-			$('.navbar-pos').css('position', 'fixed');
-			$('.navbar-pos').css('top', '0');
+			$('.navbar-pos').addClass('nav-fixed');
 			$('#aboutlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
@@ -103,8 +98,7 @@ $(document).ready(function(){
 			$('#portlink').removeClass('link-active');
 			$('#contactlink').removeClass('link-active');
 		} else {
-			$('.navbar-pos').css('position', 'absolute');
-			$('.navbar-pos').css('top', '');
+			$('.navbar-pos').removeClass('nav-fixed');
 			$('#homelink').addClass('link-active');
 			$('#aboutlink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
