@@ -29,13 +29,13 @@ body.noscroll
 .div-home{
 	position: fixed;
 	height: 100%;
-	background: url(../img/DSC_2752.png) no-repeat center center fixed; 
+	background: url(../img/DSC_2752.png) no-repeat center center; 
+	/*background-attachment: fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	color: #333;
-	z-index: 10;
 }
 
 .div-nav{

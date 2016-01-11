@@ -5,7 +5,6 @@ $(document).ready(function(){
 	$('#nav-button').on('click touchstart', function () {
 		
 		if($('.navbar-collapse').hasClass('in')){
-			
 			$('#span-top').css('animation', 'rotate2 0.2s ease-in forwards');
 			$('#span-bottom').css('animation', 'rotateBack2 0.2s ease-in forwards');
 			$('#span-top').removeClass('span-top-rotated');
@@ -25,6 +24,11 @@ $(document).ready(function(){
 	
 	$(window).scroll(function(){
 		setNavbar();
+	});
+	
+	$('body').on({'touchmove': function() { 
+        setNavbar();
+		}
 	});
 	
 	
