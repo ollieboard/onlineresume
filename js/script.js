@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 		if(windowScroll+50 > distanceContact){
 			$('.navbar-pos').addClass('nav-fixed');
-			$('#home-div').removeClass('bg-image');
+			//$('#home-div').removeClass('bg-image');
 			$('#contactlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -67,7 +67,7 @@ $(document).ready(function(){
 			$('#portlink').removeClass('link-active');
 		} else if (windowScroll+50> distancePort){
 			$('.navbar-pos').addClass('nav-fixed');
-			$('#home-div').removeClass('bg-image');
+			//$('#home-div').removeClass('bg-image');
 			$('#portlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -76,7 +76,7 @@ $(document).ready(function(){
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll+50 > distanceSkills){
 			$('.navbar-pos').addClass('nav-fixed');
-			$('#home-div').removeClass('bg-image');
+			//$('#home-div').removeClass('bg-image');
 			$('#skilllink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -86,7 +86,7 @@ $(document).ready(function(){
 			addCircles();		
 		} else if (windowScroll+50 > distanceQual){
 			$('.navbar-pos').addClass('nav-fixed');
-			$('#home-div').removeClass('bg-image');
+			//$('#home-div').removeClass('bg-image');
 			$('#quallink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#aboutlink').removeClass('link-active');
@@ -95,7 +95,7 @@ $(document).ready(function(){
 			$('#contactlink').removeClass('link-active');
 		} else if (windowScroll > distanceBar){
 			$('.navbar-pos').addClass('nav-fixed');
-			$('#home-div').removeClass('bg-image');
+			//$('#home-div').removeClass('bg-image');
 			$('#aboutlink').addClass('link-active');
 			$('#homelink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
@@ -104,7 +104,7 @@ $(document).ready(function(){
 			$('#contactlink').removeClass('link-active');
 		} else {
 			$('.navbar-pos').removeClass('nav-fixed');
-			$('#home-div').addClass('bg-image');
+			//$('#home-div').addClass('bg-image');
 			$('#homelink').addClass('link-active');
 			$('#aboutlink').removeClass('link-active');
 			$('#quallink').removeClass('link-active');
